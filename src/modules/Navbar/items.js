@@ -1,16 +1,11 @@
 import { nanoid } from "nanoid";
 
 const items = [
-    {
-        id: nanoid(),
-        text: "Home page",
-        link: "/",
-        private: false,
-    },
+   
         {
         id: nanoid(),
-        text: "MyBooks page",
-        link: "/my-books",
+        text: "MyContacts page",
+        link: "/my-contacts",
         private: true,
     },
   
