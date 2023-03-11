@@ -13,7 +13,7 @@ function App() {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <AuthLayout>
-          <BrowserRouter>
+          <BrowserRouter  basename="/goit-react-hw-08-phonebook">
             <Navbar />
             <UserRoutes />
           </BrowserRouter>
