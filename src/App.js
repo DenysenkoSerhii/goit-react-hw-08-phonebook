@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom';
+
 import { Provider } from "react-redux";
 import { PersistGate } from 'redux-persist/integration/react';
 
@@ -15,10 +15,10 @@ function App() {
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         <AuthLayout>
-          <BrowserRouter>
+          
             <Navbar />
             <UserRoutes />
-          </BrowserRouter>
+          
         </AuthLayout>
       </PersistGate>
     </Provider>
